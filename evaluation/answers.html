@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON Viewer</h1>
+    
+    <div class="container">
+        <input type="file" id="fileInput" accept=".json" multiple>
+    </div>
+
+    <div class="container">
+        <select id="modelSelector" onchange="populateQuestions()" disabled>
+            <option value="" disabled selected>Select a model</option>
+        </select>
+    </div>
+
+    <div class="container">
+        <select id="questionSelector" onchange="loadQuestion()" disabled>
+            <option value="" disabled selected>Select a question</option>
+        </select>
+    </div>
+
+    <div class="container">
+        <h2>Question</h2>
+        <p id="questionText"></p>
+    </div>
+
+    <div class="container">
+        <h2>Correct Answers</h2>
+        <ul id="correctAnswers"></ul>
+    </div>
+
+    <div class="container">
+        <h2>Generated Answer</h2>
+        <p id="generatedAnswer"></p>
+    </div>
+
+    <div class="container">
+        <h2>BLEU Score</h2>
+        <p id="bleuScore"></p>
+    </div>
+
+    <div class="container">
+        <h2>ROUGE Scores</h2>
+        <pre id="rougeScores"></pre>
+    </div>
+
+    <div class="container">
+        <h2>RAG Impact</h2>
+        <pre id="ragImpact"></pre>
+    </div>
+
+    <script>
+        let modelsData = {};
+
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            const files = event.target.files;
+            if (files.length > 0) {
+                [...files].forEach(file => {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        try {
+                            const data = JSON.parse(e.target.result);
+                            const modelName = data.model_name;
+                            if (!modelsData[modelName]) {
+                                modelsData[modelName] = [];
+                            }
+                            modelsData[modelName].push(data);
+                            populateModelSelector();
+                        } catch (error) {
+                            alert('Invalid JSON file');
+                        }
+                    };
+                    reader.readAsText(file);
+                });
+            }
+        });
+
+        function populateModelSelector() {
+            const modelSelector = document.getElementById('modelSelector');
+            modelSelector.innerHTML = '<option value="" disabled selected>Select a model</option>'; // Reset options
+            Object.keys(modelsData).forEach(modelName => {
+                const option = document.createElement('option');
+                option.value = modelName;
+                option.textContent = modelName;
+                modelSelector.appendChild(option);
+            });
+            modelSelector.disabled = false; // Enable the selector
+        }
+
+        function populateQuestions() {
+            const modelSelector = document.getElementById('modelSelector');
+            const selectedModel = modelsData[modelSelector.value];
+            const questionSelector = document.getElementById('questionSelector');
+            questionSelector.innerHTML = '<option value="" disabled selected>Select a question</option>'; // Reset options
+
+            if (selectedModel) {
+                const questionsMap = {};
+                selectedModel.forEach((variant, variantIndex) => {
+                    variant.results.forEach((result, resultIndex) => {
+                        const questionText = result.question;
+                        const variantText = `RAG ${variant.use_rag ? 'On' : 'Off'}, FT ${variant.use_ft ? 'On' : 'Off'}`;
+                        if (!questionsMap[questionText]) {
+                            questionsMap[questionText] = [];
+                        }
+                        questionsMap[questionText].push({ variantIndex, resultIndex, result, variantText });
+                    });
+                });
+
+                Object.keys(questionsMap).sort().forEach(questionText => {
+                    const optgroup = document.createElement('optgroup');
+                    optgroup.label = questionText;
+                    questionsMap[questionText].forEach(({ variantIndex, resultIndex, variantText }) => {
+                        const option = document.createElement('option');
+                        option.value = `${variantIndex}-${resultIndex}`;
+                        option.textContent = `${variantText}`;
+                        optgroup.appendChild(option);
+                    });
+                    questionSelector.appendChild(optgroup);
+                });
+
+                questionSelector.disabled = false; // Enable the selector
+            }
+        }
+
+        function loadQuestion() {
+            const questionSelector = document.getElementById('questionSelector');
+            const [variantIndex, resultIndex] = questionSelector.value.split('-').map(Number);
+            const modelSelector = document.getElementById('modelSelector');
+            const selectedModel = modelsData[modelSelector.value];
+            const selectedQuestion = selectedModel[variantIndex].results[resultIndex];
+
+            document.getElementById('questionText').textContent = selectedQuestion.question;
+            
+            const correctAnswersList = document.getElementById('correctAnswers');
+            correctAnswersList.innerHTML = '';
+            selectedQuestion.correct_answers.forEach(answer => {
+                const li = document.createElement('li');
+                li.textContent = answer;
+                correctAnswersList.appendChild(li);
+            });
+
+            document.getElementById('generatedAnswer').textContent = selectedQuestion.generated_answer;
+            document.getElementById('bleuScore').textContent = selectedQuestion.bleu_score;
+
+            document.getElementById('rougeScores').textContent = JSON.stringify(selectedQuestion.rouge_scores, null, 2);
+            document.getElementById('ragImpact').textContent = JSON.stringify(selectedQuestion.rag_impact, null, 2);
+        }
+    </script>
+</body>
+</html>

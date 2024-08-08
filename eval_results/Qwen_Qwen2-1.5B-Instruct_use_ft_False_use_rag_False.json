@@ -1,0 +1,3229 @@
+{
+    "model_name": "Qwen_Qwen2-1.5B-Instruct",
+    "model_size": "1.5B",
+    "use_ft": false,
+    "use_rag": false,
+    "mean_bleu_score": 0.15846154726191672,
+    "mean_rouge_scores": {
+        "rouge1": 0.2979347624606038,
+        "rouge2": 0.1471829381318242,
+        "rougeL": 0.25561445733677884,
+        "rougeLsum": 0.25550495754664576
+    },
+    "mean_avg_power": 100.60904491785064,
+    "mean_avg_utilization": 30.448594002161286,
+    "results": [
+        {
+            "question": "What is the main story of Valkyria Chronicles III?",
+            "correct_answers": [
+                "The game follows Squad 422, a penal military unit known as 'The Nameless,' as they perform dangerous missions during the Second Europan War.",
+                "It tells the story of Kurt Irving, Imca, and Riela Marcellis, members of Squad 422, who fight against the Imperial unit Calamity Raven.",
+                "Squad 422 is composed of criminals and military offenders who are sent on dangerous missions that regular forces won't undertake.",
+                "The Nameless fight to clear their names and help the Gallian war effort while dealing with internal and external threats.",
+                "The story includes themes of redemption and the struggle for identity as Squad 422 fights against both allies and enemies."
+            ],
+            "generated_answer": "The main story of Valkyria Chronicles III revolves around the protagonist, Prince Dugald, who leads his army against the forces of the Empire. The game explores themes of loyalty, sacrifice, and the consequences of war on both sides. It also delves into political intrigue and the complex relationships between characters. The story culminates in a pivotal battle that changes the course of the conflict.",
+            "bleu_score": 0.05369574390579944,
+            "rouge_scores": {
+                "rouge1": 0.2142857142857143,
+                "rouge2": 0.07317073170731707,
+                "rougeL": 0.19047619047619047,
+                "rougeLsum": 0.19047619047619047
+            },
+            "duration_ms": 5369.786500930786,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 80.26543396226414,
+            "avg_utilization_percent": 19.81132075471698,
+            "gpu_metrics_100ms": [
+                [
+                    61.047,
+                    12
+                ],
+                [
+                    60.921,
+                    10
+                ],
+                [
+                    60.999,
+                    10
+                ],
+                [
+                    60.992,
+                    2
+                ],
+                [
+                    61.047,
+                    2
+                ],
+                [
+                    61.02,
+                    0
+                ],
+                [
+                    60.985,
+                    0
+                ],
+                [
+                    60.949,
+                    1
+                ],
+                [
+                    60.901,
+                    1
+                ],
+                [
+                    60.882,
+                    0
+                ],
+                [
+                    60.823,
+                    0
+                ],
+                [
+                    60.776,
+                    0
+                ],
+                [
+                    60.762,
+                    0
+                ],
+                [
+                    60.689,
+                    0
+                ],
+                [
+                    60.724,
+                    0
+                ],
+                [
+                    60.73,
+                    0
+                ],
+                [
+                    64.271,
+                    0
+                ],
+                [
+                    67.446,
+                    18
+                ],
+                [
+                    67.477,
+                    18
+                ],
+                [
+                    68.288,
+                    5
+                ],
+                [
+                    71.179,
+                    5
+                ],
+                [
+                    77.162,
+                    29
+                ],
+                [
+                    80.08,
+                    29
+                ],
+                [
+                    82.961,
+                    29
+                ],
+                [
+                    85.982,
+                    29
+                ],
+                [
+                    88.893,
+                    29
+                ],
+                [
+                    88.321,
+                    29
+                ],
+                [
+                    88.048,
+                    29
+                ],
+                [
+                    90.952,
+                    29
+                ],
+                [
+                    93.227,
+                    29
+                ],
+                [
+                    93.287,
+                    30
+                ],
+                [
+                    93.275,
+                    30
+                ],
+                [
+                    93.181,
+                    30
+                ],
+                [
+                    93.392,
+                    30
+                ],
+                [
+                    93.556,
+                    31
+                ],
+                [
+                    93.472,
+                    31
+                ],
+                [
+                    93.612,
+                    30
+                ],
+                [
+                    93.852,
+                    30
+                ],
+                [
+                    94.01,
+                    31
+                ],
+                [
+                    94.178,
+                    31
+                ],
+                [
+                    94.301,
+                    32
+                ],
+                [
+                    94.424,
+                    32
+                ],
+                [
+                    94.551,
+                    31
+                ],
+                [
+                    94.692,
+                    31
+                ],
+                [
+                    94.728,
+                    31
+                ],
+                [
+                    94.745,
+                    31
+                ],
+                [
+                    94.795,
+                    30
+                ],
+                [
+                    94.742,
+                    30
+                ],
+                [
+                    94.709,
+                    31
+                ],
+                [
+                    94.659,
+                    31
+                ],
+                [
+                    94.557,
+                    30
+                ],
+                [
+                    94.401,
+                    30
+                ],
+                [
+                    94.415,
+                    31
+                ]
+            ]
+        },
+        {
+            "question": "What are the main characteristics and habitat of the plain maskray?",
+            "correct_answers": [
+                "The plain maskray has a diamond-shaped, grayish green pectoral fin disc and a short, whip-like tail with alternating black and white bands. It is found in shallow, soft-bottomed habitats off northern Australia.",
+                "The plain maskray is characterized by its diamond-shaped pectoral fin disc, short tail with black and white bands, and rows of thorns on its back and tail base. It inhabits shallow, soft-bottomed areas in northern Australia.",
+                "Identified by its grayish green, diamond-shaped pectoral fin disc and whip-like tail with alternating bands, the plain maskray lives in shallow, soft-bottomed habitats off northern Australia.",
+                "This species of stingray has a diamond-shaped, grayish green pectoral fin disc and a short tail with black and white bands. It resides in shallow, soft-bottomed habitats in northern Australia.",
+                "The plain maskray can be recognized by its diamond-shaped pectoral fin disc and a tail with alternating black and white bands. It is typically found in shallow, soft-bottomed areas off the coast of northern Australia."
+            ],
+            "generated_answer": "The Plain Mask Ray is a marine ray found in tropical waters. It has a distinctive white mask covering its eyes and mouth, giving it its name. The habitat includes coral reefs and other shallow water areas.",
+            "bleu_score": 0.06895609406799984,
+            "rouge_scores": {
+                "rouge1": 0.3888888888888889,
+                "rouge2": 0.08571428571428572,
+                "rougeL": 0.19444444444444445,
+                "rougeLsum": 0.19444444444444445
+            },
+            "duration_ms": 1815.7422542572021,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 96.86861111111112,
+            "avg_utilization_percent": 31.055555555555557,
+            "gpu_metrics_100ms": [
+                [
+                    94.011,
+                    31
+                ],
+                [
+                    97.362,
+                    31
+                ],
+                [
+                    97.462,
+                    31
+                ],
+                [
+                    97.497,
+                    30
+                ],
+                [
+                    97.605,
+                    30
+                ],
+                [
+                    97.855,
+                    31
+                ],
+                [
+                    97.726,
+                    31
+                ],
+                [
+                    97.793,
+                    30
+                ],
+                [
+                    98.004,
+                    30
+                ],
+                [
+                    98.03,
+                    31
+                ],
+                [
+                    98.063,
+                    31
+                ],
+                [
+                    98.653,
+                    31
+                ],
+                [
+                    95.377,
+                    31
+                ],
+                [
+                    95.269,
+                    31
+                ],
+                [
+                    95.506,
+                    31
+                ],
+                [
+                    95.706,
+                    33
+                ],
+                [
+                    95.775,
+                    33
+                ],
+                [
+                    95.941,
+                    32
+                ]
+            ]
+        },
+        {
+            "question": "What was the role of SMS Erzherzog Ferdinand Max during World War I?",
+            "correct_answers": [
+                "SMS Erzherzog Ferdinand Max mostly stayed in her home port of Pola but participated in four engagements, including the bombardment of Ancona and suppressing a mutiny in Cattaro.",
+                "During World War I, SMS Erzherzog Ferdinand Max formed part of a flotilla to protect German ships, bombarded Ancona, and attempted to break through the Otranto Barrage.",
+                "The ship primarily remained in Pola, but took part in the bombardment of Ancona and attempted to assist German ships in escaping the Mediterranean.",
+                "SMS Erzherzog Ferdinand Max's notable actions during the war included the bombardment of Ancona and suppressing a mutiny among armored cruiser crews.",
+                "She stayed in her home port for most of the war, but participated in the bombardment of Ancona and attempted to break through the Otranto Barrage."
+            ],
+            "generated_answer": "SMS Erzherzog Ferdinand Max served as a captain in the Austrian Army during World War I. He was part of the 12th Reserve Battalion and later the 3rd Reserve Battalion. His role involved being responsible for the transportation of soldiers, ammunition, and supplies between different locations. However, he is best known for his involvement in the assassination attempt on Archduke Franz Ferdinand, which led to Austria-Hungary declaring war on Serbia.",
+            "bleu_score": 0.08038579059154143,
+            "rouge_scores": {
+                "rouge1": 0.30612244897959184,
+                "rouge2": 0.14583333333333334,
+                "rougeL": 0.1836734693877551,
+                "rougeLsum": 0.1836734693877551
+            },
+            "duration_ms": 4137.480020523071,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 96.51041463414633,
+            "avg_utilization_percent": 30.829268292682926,
+            "gpu_metrics_100ms": [
+                [
+                    95.96,
+                    32
+                ],
+                [
+                    96.38,
+                    30
+                ],
+                [
+                    100.577,
+                    30
+                ],
+                [
+                    100.831,
+                    39
+                ],
+                [
+                    100.758,
+                    39
+                ],
+                [
+                    100.826,
+                    31
+                ],
+                [
+                    100.987,
+                    31
+                ],
+                [
+                    100.921,
+                    32
+                ],
+                [
+                    100.825,
+                    32
+                ],
+                [
+                    100.634,
+                    31
+                ],
+                [
+                    100.487,
+                    31
+                ],
+                [
+                    100.427,
+                    30
+                ],
+                [
+                    99.843,
+                    30
+                ],
+                [
+                    95.741,
+                    30
+                ],
+                [
+                    95.438,
+                    30
+                ],
+                [
+                    95.301,
+                    30
+                ],
+                [
+                    95.122,
+                    30
+                ],
+                [
+                    95.001,
+                    30
+                ],
+                [
+                    94.784,
+                    30
+                ],
+                [
+                    94.663,
+                    30
+                ],
+                [
+                    94.554,
+                    30
+                ],
+                [
+                    94.671,
+                    30
+                ],
+                [
+                    94.677,
+                    30
+                ],
+                [
+                    94.581,
+                    30
+                ],
+                [
+                    94.589,
+                    30
+                ],
+                [
+                    94.697,
+                    30
+                ],
+                [
+                    94.782,
+                    31
+                ],
+                [
+                    94.686,
+                    31
+                ],
+                [
+                    94.765,
+                    30
+                ],
+                [
+                    94.736,
+                    30
+                ],
+                [
+                    94.87,
+                    30
+                ],
+                [
+                    94.945,
+                    30
+                ],
+                [
+                    94.89,
+                    30
+                ],
+                [
+                    94.939,
+                    30
+                ],
+                [
+                    95.038,
+                    31
+                ],
+                [
+                    95.018,
+                    31
+                ],
+                [
+                    94.932,
+                    30
+                ],
+                [
+                    94.946,
+                    30
+                ],
+                [
+                    95.086,
+                    31
+                ],
+                [
+                    94.982,
+                    31
+                ],
+                [
+                    95.037,
+                    30
+                ]
+            ]
+        },
+        {
+            "question": "What is the Johnson \u2013 Corey \u2013 Chaykovsky reaction used for in organic chemistry?",
+            "correct_answers": [
+                "It is used for the synthesis of epoxides, aziridines, and cyclopropanes.",
+                "It is a chemical reaction that produces 3-membered rings such as epoxides, aziridines, and cyclopropanes.",
+                "The reaction is employed to synthesize epoxides, aziridines, and cyclopropanes by adding a sulfur ylide to a ketone, aldehyde, imine, or enone.",
+                "It serves as a method for creating 3-membered rings including epoxides, aziridines, and cyclopropanes.",
+                "The reaction is used to synthesize epoxides, aziridines, and cyclopropanes and is a significant method in organic chemistry."
+            ],
+            "generated_answer": "The Johnson\u2013Corey\u2013Chaykovsky reaction is used to convert a primary amine into a secondary amine.",
+            "bleu_score": 0.2722589423069702,
+            "rouge_scores": {
+                "rouge1": 0.35294117647058826,
+                "rouge2": 0.18750000000000003,
+                "rougeL": 0.35294117647058826,
+                "rougeLsum": 0.35294117647058826
+            },
+            "duration_ms": 1209.5837593078613,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 99.04341666666666,
+            "avg_utilization_percent": 30.666666666666668,
+            "gpu_metrics_100ms": [
+                [
+                    94.977,
+                    30
+                ],
+                [
+                    99.48,
+                    37
+                ],
+                [
+                    99.467,
+                    37
+                ],
+                [
+                    99.459,
+                    29
+                ],
+                [
+                    99.329,
+                    29
+                ],
+                [
+                    99.452,
+                    29
+                ],
+                [
+                    99.405,
+                    29
+                ],
+                [
+                    99.409,
+                    29
+                ],
+                [
+                    99.268,
+                    29
+                ],
+                [
+                    99.382,
+                    30
+                ],
+                [
+                    99.48,
+                    30
+                ],
+                [
+                    99.413,
+                    30
+                ]
+            ]
+        },
+        {
+            "question": "Where are the Elephanta Caves located?",
+            "correct_answers": [
+                "Elephanta Caves are located on Elephanta Island in Mumbai Harbour, Maharashtra, India.",
+                "The Elephanta Caves are situated on Gharapuri Island in Mumbai Harbour, close to Mumbai city in Maharashtra.",
+                "Elephanta Island, where the Elephanta Caves are found, lies in Mumbai Harbour in the state of Maharashtra, India.",
+                "You can find the Elephanta Caves on Elephanta Island, which is situated in Mumbai Harbour, near Mumbai in Maharashtra.",
+                "The Elephanta Caves are located on an island called Gharapuri in Mumbai Harbour, within the Indian state of Maharashtra."
+            ],
+            "generated_answer": "The Elephanta Caves are located on Elephanta Island off the coast of Mumbai, India.",
+            "bleu_score": 0.5896412024973812,
+            "rouge_scores": {
+                "rouge1": 0.6923076923076924,
+                "rouge2": 0.4999999999999999,
+                "rougeL": 0.6923076923076924,
+                "rougeLsum": 0.6923076923076924
+            },
+            "duration_ms": 1008.4733963012695,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 98.71560000000002,
+            "avg_utilization_percent": 30.6,
+            "gpu_metrics_100ms": [
+                [
+                    94.907,
+                    30
+                ],
+                [
+                    97.429,
+                    32
+                ],
+                [
+                    99.058,
+                    32
+                ],
+                [
+                    99.217,
+                    32
+                ],
+                [
+                    99.138,
+                    32
+                ],
+                [
+                    99.268,
+                    29
+                ],
+                [
+                    99.397,
+                    29
+                ],
+                [
+                    99.499,
+                    30
+                ],
+                [
+                    99.58,
+                    30
+                ],
+                [
+                    99.663,
+                    30
+                ]
+            ]
+        },
+        {
+            "question": "What ship did Markgraf fire on during the Battle of Jutland?",
+            "correct_answers": [
+                "Markgraf opened fire on the battlecruiser Tiger.",
+                "Markgraf engaged the battlecruiser Tiger at a range of 21,000 yards.",
+                "Markgraf fired on the British battlecruiser Tiger.",
+                "Markgraf targeted the battlecruiser Tiger during the battle.",
+                "Markgraf's gunners aimed at the battlecruiser Tiger at the Battle of Jutland."
+            ],
+            "generated_answer": "The Markgraf fired on the German battleship Prinz Eugen during the Battle of Jutland.",
+            "bleu_score": 0.43352163052980475,
+            "rouge_scores": {
+                "rouge1": 0.4444444444444445,
+                "rouge2": 0.24000000000000002,
+                "rougeL": 0.4444444444444445,
+                "rougeLsum": 0.4444444444444445
+            },
+            "duration_ms": 1008.3556175231934,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 99.7811,
+            "avg_utilization_percent": 30.1,
+            "gpu_metrics_100ms": [
+                [
+                    99.765,
+                    30
+                ],
+                [
+                    100.409,
+                    27
+                ],
+                [
+                    101.144,
+                    27
+                ],
+                [
+                    99.533,
+                    35
+                ],
+                [
+                    99.517,
+                    35
+                ],
+                [
+                    99.553,
+                    29
+                ],
+                [
+                    99.434,
+                    29
+                ],
+                [
+                    99.343,
+                    29
+                ],
+                [
+                    99.497,
+                    29
+                ],
+                [
+                    99.616,
+                    31
+                ]
+            ]
+        },
+        {
+            "question": "What were some of the challenges faced by Suvarnabhumi Airport?",
+            "correct_answers": [
+                "Suvarnabhumi Airport faced issues with unauthorized repairs on the tarmac, severe bleeding under the runway, and operational challenges like a computer virus affecting the luggage scanning system.",
+                "There were serious security gaps where checked passengers could meet unchecked individuals, and the airport struggled with making decisions on how to improve security.",
+                "The Engineering Institute of Thailand warned about the urgent need to drain water from beneath the tarmac, but no action was taken, leading to worsening conditions.",
+                "The airport had a computer virus that shut down the automated luggage bomb-scanning system and security issues where passengers could receive unchecked objects.",
+                "Airlines threatened to halt flights if forced to move back to Don Muang Airport, and there were ongoing debates and inaction regarding how to improve airport security."
+            ],
+            "generated_answer": "Some of the challenges faced by Suvarnabhumi Airport include increased demand for international flights due to the COVID-19 pandemic, operational disruptions caused by natural disasters such as floods, and security concerns related to terrorist threats.",
+            "bleu_score": 0.07298505091921748,
+            "rouge_scores": {
+                "rouge1": 0.25396825396825395,
+                "rouge2": 0.03278688524590164,
+                "rougeL": 0.12698412698412698,
+                "rougeLsum": 0.12698412698412698
+            },
+            "duration_ms": 2018.022060394287,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 100.45575,
+            "avg_utilization_percent": 32.3,
+            "gpu_metrics_100ms": [
+                [
+                    99.761,
+                    31
+                ],
+                [
+                    98.908,
+                    26
+                ],
+                [
+                    103.198,
+                    26
+                ],
+                [
+                    100.227,
+                    41
+                ],
+                [
+                    100.603,
+                    41
+                ],
+                [
+                    100.886,
+                    31
+                ],
+                [
+                    101.316,
+                    31
+                ],
+                [
+                    101.737,
+                    32
+                ],
+                [
+                    102.194,
+                    32
+                ],
+                [
+                    102.291,
+                    32
+                ],
+                [
+                    102.446,
+                    32
+                ],
+                [
+                    103.64,
+                    33
+                ],
+                [
+                    98.898,
+                    33
+                ],
+                [
+                    99.06,
+                    31
+                ],
+                [
+                    99.02,
+                    32
+                ],
+                [
+                    99.121,
+                    32
+                ],
+                [
+                    98.961,
+                    32
+                ],
+                [
+                    98.985,
+                    32
+                ],
+                [
+                    98.922,
+                    33
+                ],
+                [
+                    98.941,
+                    33
+                ]
+            ]
+        },
+        {
+            "question": "Where did Wheeler move to after leaving the Hallam Street flat?",
+            "correct_answers": [
+                "He moved to an apartment in Mount Street.",
+                "He moved into his wife's house in Mallord Street.",
+                "He moved to Mount Street in summer 1950.",
+                "He initially moved to Mount Street and later to Mallord Street.",
+                "He rented an apartment in Mount Street before moving to Mallord Street."
+            ],
+            "generated_answer": "Wheeler moved to New York City.",
+            "bleu_score": 0.19562170797817718,
+            "rouge_scores": {
+                "rouge1": 0.28571428571428575,
+                "rouge2": 0.16666666666666666,
+                "rougeL": 0.28571428571428575,
+                "rougeLsum": 0.28571428571428575
+            },
+            "duration_ms": 504.1201114654541,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 99.5714,
+            "avg_utilization_percent": 28.4,
+            "gpu_metrics_100ms": [
+                [
+                    96.342,
+                    18
+                ],
+                [
+                    100.423,
+                    18
+                ],
+                [
+                    100.527,
+                    38
+                ],
+                [
+                    100.434,
+                    38
+                ],
+                [
+                    100.131,
+                    30
+                ]
+            ]
+        },
+        {
+            "question": "What are the symptoms of Acute Myeloid Leukemia (AML)?",
+            "correct_answers": [
+                "The symptoms of AML include fatigue, shortness of breath, easy bruising and bleeding, and an increased risk of infection.",
+                "AML symptoms are caused by the replacement of normal bone marrow with leukemic cells, leading to a drop in red blood cells, platelets, and normal white blood cells.",
+                "Common symptoms of AML are fatigue, shortness of breath, easy bruising, bleeding, and a higher risk of infection.",
+                "Symptoms of AML include fatigue, shortness of breath, easy bruising, increased bleeding, and a higher susceptibility to infections.",
+                "AML symptoms often include fatigue, difficulty breathing, easy bruising, unexpected bleeding, and a heightened risk of infection."
+            ],
+            "generated_answer": "Symptoms of Acute Myeloid Leukemia (AML) include:\n\n1. Fatigue\n2. Persistent fever\n3. Bone pain\n4. Increased bleeding or bruising\n5. Unexplained weight loss\n6. Shortness of breath\n7. Pain in the abdomen or chest\n8. Redness around the eyes or mouth\n9. Pale skin\n10. Sudden unexplained bleeding from nose or gums\n\nThese symptoms can vary among patients and may be present at different stages of AML. It's important to consult a healthcare professional if you experience any of these symptoms.",
+            "bleu_score": 0.02665661457098935,
+            "rouge_scores": {
+                "rouge1": 0.2772277227722772,
+                "rouge2": 0.1212121212121212,
+                "rougeL": 0.21782178217821782,
+                "rougeLsum": 0.19801980198019803
+            },
+            "duration_ms": 5438.835859298706,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 98.14564814814818,
+            "avg_utilization_percent": 31.11111111111111,
+            "gpu_metrics_100ms": [
+                [
+                    98.787,
+                    30
+                ],
+                [
+                    102.592,
+                    30
+                ],
+                [
+                    102.382,
+                    30
+                ],
+                [
+                    102.236,
+                    30
+                ],
+                [
+                    101.988,
+                    30
+                ],
+                [
+                    101.765,
+                    30
+                ],
+                [
+                    104.282,
+                    30
+                ],
+                [
+                    99.851,
+                    30
+                ],
+                [
+                    99.623,
+                    30
+                ],
+                [
+                    99.728,
+                    31
+                ],
+                [
+                    99.895,
+                    31
+                ],
+                [
+                    101.038,
+                    31
+                ],
+                [
+                    96.948,
+                    31
+                ],
+                [
+                    97.11,
+                    31
+                ],
+                [
+                    97.03,
+                    31
+                ],
+                [
+                    97.045,
+                    31
+                ],
+                [
+                    97.221,
+                    31
+                ],
+                [
+                    97.143,
+                    32
+                ],
+                [
+                    97.18,
+                    32
+                ],
+                [
+                    97.361,
+                    32
+                ],
+                [
+                    97.268,
+                    32
+                ],
+                [
+                    97.194,
+                    31
+                ],
+                [
+                    97.366,
+                    31
+                ],
+                [
+                    97.409,
+                    32
+                ],
+                [
+                    97.378,
+                    32
+                ],
+                [
+                    97.525,
+                    32
+                ],
+                [
+                    97.565,
+                    32
+                ],
+                [
+                    97.421,
+                    31
+                ],
+                [
+                    97.386,
+                    31
+                ],
+                [
+                    97.423,
+                    31
+                ],
+                [
+                    97.276,
+                    31
+                ],
+                [
+                    97.292,
+                    30
+                ],
+                [
+                    97.242,
+                    30
+                ],
+                [
+                    97.167,
+                    31
+                ],
+                [
+                    97.105,
+                    31
+                ],
+                [
+                    97.041,
+                    31
+                ],
+                [
+                    96.866,
+                    31
+                ],
+                [
+                    96.96,
+                    31
+                ],
+                [
+                    96.861,
+                    31
+                ],
+                [
+                    96.874,
+                    30
+                ],
+                [
+                    96.897,
+                    30
+                ],
+                [
+                    96.939,
+                    31
+                ],
+                [
+                    97.009,
+                    31
+                ],
+                [
+                    97.084,
+                    32
+                ],
+                [
+                    97.103,
+                    32
+                ],
+                [
+                    97.278,
+                    32
+                ],
+                [
+                    97.35,
+                    32
+                ],
+                [
+                    97.483,
+                    32
+                ],
+                [
+                    97.497,
+                    32
+                ],
+                [
+                    97.667,
+                    32
+                ],
+                [
+                    97.773,
+                    32
+                ],
+                [
+                    97.911,
+                    32
+                ],
+                [
+                    97.99,
+                    32
+                ],
+                [
+                    98.06,
+                    32
+                ]
+            ]
+        },
+        {
+            "question": "What are some notable references to Galveston in media and literature?",
+            "correct_answers": [
+                "Galveston is a popular song written by Jimmy Webb and sung by Glen Campbell.",
+                "Sheldon Cooper from The Big Bang Theory grew up in Galveston.",
+                "The Man from Galveston (1963) was the original pilot episode of the NBC western series Temple Houston.",
+                "Donald Barthelme's 1974 short story 'I bought a little city' is about a man who buys and then sells Galveston.",
+                "Sean Stewart's 2000 fantasy novel Galveston features a Flood of Magic taking over the island city."
+            ],
+            "generated_answer": "Galveston is a significant location in many works of fiction. Here are some notable examples:\n\n1. \"The Great Gatsby\" by F. Scott Fitzgerald: The story takes place on the island during the Roaring Twenties.\n2. \"The Beach Boys Story\" (film): This movie features scenes shot on Galveston Island.\n3. \"Pete's Dragon\" (animated film): The main character's home is on the island.\n4. \"Titanic\" (film): While the ship itself was fictionalized for the plot, the island of Galveston has been mentioned as a filming location.\n5. \"Lost\" TV series: The show includes scenes set on the island.\n6. \"Soul Plane\" (film): This comedy features a scene filmed on the island.\n7. \"Dazed and Confused\": A scene from this classic film was shot on the island.\n\nThese are just a few examples; there are likely many more references to Galveston in various media and literature.",
+            "bleu_score": 0.02500259652976955,
+            "rouge_scores": {
+                "rouge1": 0.09876543209876543,
+                "rouge2": 0.024999999999999998,
+                "rougeL": 0.07407407407407407,
+                "rougeLsum": 0.09876543209876543
+            },
+            "duration_ms": 8673.467874526978,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 100.63979069767439,
+            "avg_utilization_percent": 33.151162790697676,
+            "gpu_metrics_100ms": [
+                [
+                    98.196,
+                    32
+                ],
+                [
+                    96.499,
+                    24
+                ],
+                [
+                    101.594,
+                    24
+                ],
+                [
+                    101.561,
+                    40
+                ],
+                [
+                    101.455,
+                    40
+                ],
+                [
+                    101.527,
+                    31
+                ],
+                [
+                    101.589,
+                    31
+                ],
+                [
+                    101.726,
+                    32
+                ],
+                [
+                    101.605,
+                    32
+                ],
+                [
+                    101.819,
+                    31
+                ],
+                [
+                    101.846,
+                    33
+                ],
+                [
+                    103.775,
+                    33
+                ],
+                [
+                    98.665,
+                    33
+                ],
+                [
+                    98.978,
+                    33
+                ],
+                [
+                    99.258,
+                    34
+                ],
+                [
+                    99.388,
+                    34
+                ],
+                [
+                    99.47,
+                    33
+                ],
+                [
+                    99.483,
+                    33
+                ],
+                [
+                    99.641,
+                    33
+                ],
+                [
+                    99.733,
+                    33
+                ],
+                [
+                    99.708,
+                    33
+                ],
+                [
+                    99.714,
+                    33
+                ],
+                [
+                    99.661,
+                    33
+                ],
+                [
+                    99.824,
+                    33
+                ],
+                [
+                    99.713,
+                    33
+                ],
+                [
+                    99.7,
+                    33
+                ],
+                [
+                    99.533,
+                    33
+                ],
+                [
+                    99.75,
+                    33
+                ],
+                [
+                    99.761,
+                    34
+                ],
+                [
+                    99.746,
+                    34
+                ],
+                [
+                    99.876,
+                    33
+                ],
+                [
+                    99.886,
+                    33
+                ],
+                [
+                    100.051,
+                    33
+                ],
+                [
+                    100.084,
+                    33
+                ],
+                [
+                    100.198,
+                    34
+                ],
+                [
+                    100.247,
+                    34
+                ],
+                [
+                    100.376,
+                    33
+                ],
+                [
+                    100.422,
+                    33
+                ],
+                [
+                    100.275,
+                    33
+                ],
+                [
+                    100.399,
+                    33
+                ],
+                [
+                    100.366,
+                    33
+                ],
+                [
+                    100.363,
+                    33
+                ],
+                [
+                    100.361,
+                    33
+                ],
+                [
+                    100.259,
+                    33
+                ],
+                [
+                    100.311,
+                    34
+                ],
+                [
+                    100.184,
+                    34
+                ],
+                [
+                    100.331,
+                    34
+                ],
+                [
+                    100.227,
+                    34
+                ],
+                [
+                    100.46,
+                    34
+                ],
+                [
+                    100.605,
+                    34
+                ],
+                [
+                    100.696,
+                    34
+                ],
+                [
+                    101.029,
+                    34
+                ],
+                [
+                    101.108,
+                    34
+                ],
+                [
+                    101.324,
+                    34
+                ],
+                [
+                    101.442,
+                    34
+                ],
+                [
+                    101.468,
+                    34
+                ],
+                [
+                    101.651,
+                    33
+                ],
+                [
+                    101.754,
+                    33
+                ],
+                [
+                    101.891,
+                    34
+                ],
+                [
+                    101.799,
+                    34
+                ],
+                [
+                    101.805,
+                    33
+                ],
+                [
+                    101.672,
+                    33
+                ],
+                [
+                    101.705,
+                    34
+                ],
+                [
+                    101.758,
+                    34
+                ],
+                [
+                    101.805,
+                    35
+                ],
+                [
+                    101.606,
+                    35
+                ],
+                [
+                    101.506,
+                    32
+                ],
+                [
+                    101.338,
+                    32
+                ],
+                [
+                    101.202,
+                    33
+                ],
+                [
+                    101.111,
+                    33
+                ],
+                [
+                    101.1,
+                    33
+                ],
+                [
+                    101.121,
+                    33
+                ],
+                [
+                    101.232,
+                    34
+                ],
+                [
+                    101.071,
+                    34
+                ],
+                [
+                    101.041,
+                    34
+                ],
+                [
+                    100.914,
+                    34
+                ],
+                [
+                    101.196,
+                    34
+                ],
+                [
+                    101.18,
+                    34
+                ],
+                [
+                    101.093,
+                    33
+                ],
+                [
+                    101.012,
+                    33
+                ],
+                [
+                    101.07,
+                    33
+                ],
+                [
+                    101.008,
+                    33
+                ],
+                [
+                    100.774,
+                    32
+                ],
+                [
+                    100.581,
+                    32
+                ],
+                [
+                    100.475,
+                    32
+                ],
+                [
+                    100.285,
+                    32
+                ]
+            ]
+        },
+        {
+            "question": "What are the Ten Commandments in Catholic theology, and what is their significance?",
+            "correct_answers": [
+                "The Ten Commandments are a set of religious and moral imperatives in Catholic theology, considered essential for spiritual health and the basis for Catholic social justice.",
+                "In Catholic theology, the Ten Commandments are a moral foundation that guides individuals' relationships with God and others, and they are essential for spiritual growth.",
+                "The Ten Commandments, as described in the Old Testament, form a covenant with God and are fundamental to Catholic teachings on morality and social justice.",
+                "According to Catholic theology, the Ten Commandments are vital for maintaining spiritual health and are used in examining conscience before receiving the sacrament of Penance.",
+                "The Ten Commandments are seen as a moral guide in Catholic theology, emphasizing love of God and neighbor, and are crucial for spiritual and moral development."
+            ],
+            "generated_answer": "The Ten Commandments in Catholic theology represent fundamental principles for ethical behavior. They include:\n\n1. **You shall have no other gods before Me** (Exodus 20:3)\n   - Significantly, they emphasize monotheism and worship of one God.\n\n2. **You shall not make for yourself a carved image**  \n   - This commandment highlights respect for God's holiness and emphasizes the importance of maintaining spiritual purity.\n\n3. **You shall not take the name of the Lord your God in vain**  \n   - It stresses the importance of using God's name in a reverent manner and avoiding profanity.\n\n4. **I am the Lord your God...you shall love the Lord your God with all your heart**  \n   - The first commandment affirms the divine nature of God and the ultimate authority He holds over humans.\n\n5. **You shall not murder**  \n   - This commandment underscores the sanctity of life and the value of human beings as created beings by God.\n\n6. **You shall not commit adultery**  \n   - It reinforces the moral value of fidelity and chastity within marriage relationships.\n\n7. **You shall not steal**  \n   - This commandment upholds the principle of honest dealings and integrity in personal and professional life.\n\n8. **You shall not bear false witness against your neighbor**  \n   - It promotes honesty and fairness in interactions with others.\n\n9. **You shall not covet your neighbor\u2019s house**  \n   - This commandment reminds believers to be content with what they already possess and avoid envy.\n\n10. **You shall keep My statutes and obey My commands**  \n    - These final two commands emphasize obedience to God's will and His teachings.\n\nThese ten commandments serve as foundational principles in Catholic theology, guiding individuals' conduct and relationships with God and fellow man. They reflect the belief in a transcendent God who demands worship and respect, while also emphasizing the importance of living virtuously and fostering interpersonal relationships based on mutual respect and trust.",
+            "bleu_score": 0.026031164552854147,
+            "rouge_scores": {
+                "rouge1": 0.121580547112462,
+                "rouge2": 0.04892966360856269,
+                "rougeL": 0.0851063829787234,
+                "rougeLsum": 0.10334346504559269
+            },
+            "duration_ms": 18343.801736831665,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 100.96353296703303,
+            "avg_utilization_percent": 32.23076923076923,
+            "gpu_metrics_100ms": [
+                [
+                    98.755,
+                    32
+                ],
+                [
+                    103.728,
+                    35
+                ],
+                [
+                    103.472,
+                    35
+                ],
+                [
+                    103.276,
+                    29
+                ],
+                [
+                    103.034,
+                    29
+                ],
+                [
+                    102.831,
+                    29
+                ],
+                [
+                    102.823,
+                    29
+                ],
+                [
+                    102.745,
+                    30
+                ],
+                [
+                    102.565,
+                    30
+                ],
+                [
+                    102.455,
+                    29
+                ],
+                [
+                    102.462,
+                    29
+                ],
+                [
+                    103.406,
+                    30
+                ],
+                [
+                    98.338,
+                    30
+                ],
+                [
+                    98.629,
+                    31
+                ],
+                [
+                    98.857,
+                    31
+                ],
+                [
+                    98.864,
+                    31
+                ],
+                [
+                    98.949,
+                    31
+                ],
+                [
+                    99.056,
+                    31
+                ],
+                [
+                    99.004,
+                    31
+                ],
+                [
+                    99.137,
+                    30
+                ],
+                [
+                    99.11,
+                    30
+                ],
+                [
+                    99.097,
+                    30
+                ],
+                [
+                    99.306,
+                    30
+                ],
+                [
+                    99.379,
+                    31
+                ],
+                [
+                    99.36,
+                    31
+                ],
+                [
+                    99.408,
+                    32
+                ],
+                [
+                    99.496,
+                    32
+                ],
+                [
+                    99.569,
+                    31
+                ],
+                [
+                    99.655,
+                    31
+                ],
+                [
+                    99.772,
+                    32
+                ],
+                [
+                    99.785,
+                    32
+                ],
+                [
+                    99.628,
+                    29
+                ],
+                [
+                    98.934,
+                    29
+                ],
+                [
+                    98.083,
+                    23
+                ],
+                [
+                    97.233,
+                    23
+                ],
+                [
+                    96.968,
+                    26
+                ],
+                [
+                    96.035,
+                    26
+                ],
+                [
+                    95.444,
+                    24
+                ],
+                [
+                    95.304,
+                    24
+                ],
+                [
+                    95.094,
+                    31
+                ],
+                [
+                    95.135,
+                    31
+                ],
+                [
+                    95.127,
+                    31
+                ],
+                [
+                    95.387,
+                    31
+                ],
+                [
+                    96.025,
+                    30
+                ],
+                [
+                    96.881,
+                    30
+                ],
+                [
+                    97.711,
+                    31
+                ],
+                [
+                    97.854,
+                    31
+                ],
+                [
+                    97.95,
+                    27
+                ],
+                [
+                    97.77,
+                    27
+                ],
+                [
+                    97.223,
+                    24
+                ],
+                [
+                    96.838,
+                    24
+                ],
+                [
+                    97.167,
+                    30
+                ],
+                [
+                    97.415,
+                    30
+                ],
+                [
+                    97.492,
+                    32
+                ],
+                [
+                    97.846,
+                    32
+                ],
+                [
+                    97.923,
+                    33
+                ],
+                [
+                    98.001,
+                    33
+                ],
+                [
+                    98.428,
+                    33
+                ],
+                [
+                    99.27,
+                    33
+                ],
+                [
+                    100.319,
+                    33
+                ],
+                [
+                    101.23,
+                    33
+                ],
+                [
+                    101.872,
+                    33
+                ],
+                [
+                    101.78,
+                    33
+                ],
+                [
+                    101.718,
+                    33
+                ],
+                [
+                    101.866,
+                    33
+                ],
+                [
+                    101.929,
+                    34
+                ],
+                [
+                    102.028,
+                    34
+                ],
+                [
+                    102.232,
+                    33
+                ],
+                [
+                    102.129,
+                    33
+                ],
+                [
+                    102.181,
+                    34
+                ],
+                [
+                    102.25,
+                    34
+                ],
+                [
+                    102.175,
+                    34
+                ],
+                [
+                    102.172,
+                    34
+                ],
+                [
+                    102.133,
+                    34
+                ],
+                [
+                    102.218,
+                    34
+                ],
+                [
+                    102.355,
+                    34
+                ],
+                [
+                    102.15,
+                    34
+                ],
+                [
+                    101.988,
+                    33
+                ],
+                [
+                    101.868,
+                    33
+                ],
+                [
+                    101.881,
+                    33
+                ],
+                [
+                    101.818,
+                    33
+                ],
+                [
+                    101.607,
+                    33
+                ],
+                [
+                    101.696,
+                    33
+                ],
+                [
+                    101.678,
+                    33
+                ],
+                [
+                    101.587,
+                    33
+                ],
+                [
+                    101.486,
+                    33
+                ],
+                [
+                    101.389,
+                    33
+                ],
+                [
+                    101.423,
+                    33
+                ],
+                [
+                    101.493,
+                    33
+                ],
+                [
+                    101.654,
+                    33
+                ],
+                [
+                    101.579,
+                    33
+                ],
+                [
+                    101.57,
+                    33
+                ],
+                [
+                    101.678,
+                    33
+                ],
+                [
+                    101.589,
+                    33
+                ],
+                [
+                    101.545,
+                    33
+                ],
+                [
+                    101.567,
+                    33
+                ],
+                [
+                    101.676,
+                    33
+                ],
+                [
+                    101.284,
+                    31
+                ],
+                [
+                    100.988,
+                    31
+                ],
+                [
+                    100.518,
+                    28
+                ],
+                [
+                    99.514,
+                    28
+                ],
+                [
+                    98.866,
+                    24
+                ],
+                [
+                    98.12,
+                    24
+                ],
+                [
+                    97.142,
+                    24
+                ],
+                [
+                    97.204,
+                    24
+                ],
+                [
+                    97.243,
+                    33
+                ],
+                [
+                    97.259,
+                    33
+                ],
+                [
+                    97.308,
+                    34
+                ],
+                [
+                    97.645,
+                    34
+                ],
+                [
+                    97.978,
+                    33
+                ],
+                [
+                    98.53,
+                    33
+                ],
+                [
+                    99.508,
+                    34
+                ],
+                [
+                    100.275,
+                    34
+                ],
+                [
+                    101.107,
+                    33
+                ],
+                [
+                    102.174,
+                    33
+                ],
+                [
+                    102.248,
+                    34
+                ],
+                [
+                    102.4,
+                    34
+                ],
+                [
+                    102.28,
+                    34
+                ],
+                [
+                    102.346,
+                    33
+                ],
+                [
+                    102.518,
+                    33
+                ],
+                [
+                    102.499,
+                    34
+                ],
+                [
+                    102.447,
+                    34
+                ],
+                [
+                    102.423,
+                    33
+                ],
+                [
+                    102.548,
+                    33
+                ],
+                [
+                    102.504,
+                    34
+                ],
+                [
+                    102.501,
+                    34
+                ],
+                [
+                    102.625,
+                    35
+                ],
+                [
+                    102.549,
+                    35
+                ],
+                [
+                    102.624,
+                    34
+                ],
+                [
+                    102.744,
+                    34
+                ],
+                [
+                    102.661,
+                    35
+                ],
+                [
+                    102.746,
+                    35
+                ],
+                [
+                    102.745,
+                    35
+                ],
+                [
+                    102.858,
+                    35
+                ],
+                [
+                    102.803,
+                    34
+                ],
+                [
+                    102.833,
+                    34
+                ],
+                [
+                    103.079,
+                    35
+                ],
+                [
+                    103.016,
+                    35
+                ],
+                [
+                    103.071,
+                    35
+                ],
+                [
+                    103.299,
+                    35
+                ],
+                [
+                    103.384,
+                    36
+                ],
+                [
+                    103.682,
+                    36
+                ],
+                [
+                    103.804,
+                    37
+                ],
+                [
+                    104.046,
+                    37
+                ],
+                [
+                    104.219,
+                    36
+                ],
+                [
+                    104.344,
+                    36
+                ],
+                [
+                    104.586,
+                    36
+                ],
+                [
+                    104.531,
+                    36
+                ],
+                [
+                    104.764,
+                    36
+                ],
+                [
+                    104.894,
+                    36
+                ],
+                [
+                    104.839,
+                    36
+                ],
+                [
+                    104.914,
+                    36
+                ],
+                [
+                    104.707,
+                    36
+                ],
+                [
+                    104.628,
+                    36
+                ],
+                [
+                    104.706,
+                    36
+                ],
+                [
+                    104.591,
+                    36
+                ],
+                [
+                    104.637,
+                    36
+                ],
+                [
+                    104.379,
+                    36
+                ],
+                [
+                    104.319,
+                    35
+                ],
+                [
+                    104.329,
+                    35
+                ],
+                [
+                    104.363,
+                    36
+                ],
+                [
+                    104.392,
+                    36
+                ],
+                [
+                    104.28,
+                    35
+                ],
+                [
+                    104.058,
+                    35
+                ],
+                [
+                    103.365,
+                    29
+                ],
+                [
+                    102.362,
+                    29
+                ],
+                [
+                    101.557,
+                    26
+                ],
+                [
+                    100.856,
+                    26
+                ],
+                [
+                    100.474,
+                    29
+                ],
+                [
+                    100.079,
+                    29
+                ],
+                [
+                    99.527,
+                    30
+                ],
+                [
+                    99.018,
+                    30
+                ],
+                [
+                    98.756,
+                    32
+                ],
+                [
+                    98.695,
+                    32
+                ],
+                [
+                    99.006,
+                    35
+                ],
+                [
+                    99.72,
+                    35
+                ],
+                [
+                    100.593,
+                    35
+                ],
+                [
+                    101.49,
+                    35
+                ],
+                [
+                    102.155,
+                    35
+                ],
+                [
+                    102.584,
+                    35
+                ],
+                [
+                    103.123,
+                    36
+                ],
+                [
+                    103.579,
+                    36
+                ]
+            ]
+        },
+        {
+            "question": "What were the primary aircraft types flown by No. 79 Wing during World War II?",
+            "correct_answers": [
+                "Beaufort light reconnaissance bombers, B-25 Mitchell medium bombers, and Beaufighter heavy fighters",
+                "Beaufort bombers, B-25 Mitchell bombers, and Beaufighter fighters",
+                "Beaufort bombers, Mitchell bombers, and Beaufighter fighters",
+                "Beaufort reconnaissance bombers, B-25 Mitchell bombers, and Beaufighter fighters",
+                "Beaufort light bombers, B-25 Mitchell bombers, and Beaufighter heavy fighters"
+            ],
+            "generated_answer": "The primary aircraft types flown by No. 79 Wing during World War II included the Hawker Hurricane, Fairey Swordfish, and Avro Anson.",
+            "bleu_score": 0.04709516653805003,
+            "rouge_scores": {
+                "rouge1": 0.06896551724137931,
+                "rouge2": 0.0,
+                "rougeL": 0.06896551724137931,
+                "rougeLsum": 0.06896551724137931
+            },
+            "duration_ms": 1611.501932144165,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 102.88550000000002,
+            "avg_utilization_percent": 29.875,
+            "gpu_metrics_100ms": [
+                [
+                    100.107,
+                    30
+                ],
+                [
+                    104.244,
+                    22
+                ],
+                [
+                    103.913,
+                    22
+                ],
+                [
+                    103.778,
+                    31
+                ],
+                [
+                    103.496,
+                    31
+                ],
+                [
+                    103.182,
+                    30
+                ],
+                [
+                    103.061,
+                    30
+                ],
+                [
+                    102.893,
+                    31
+                ],
+                [
+                    102.558,
+                    31
+                ],
+                [
+                    102.385,
+                    31
+                ],
+                [
+                    103.022,
+                    31
+                ],
+                [
+                    106.044,
+                    31
+                ],
+                [
+                    101.869,
+                    31
+                ],
+                [
+                    101.88,
+                    32
+                ],
+                [
+                    101.798,
+                    32
+                ],
+                [
+                    101.938,
+                    32
+                ]
+            ]
+        },
+        {
+            "question": "When were the Romanian Land Forces founded?",
+            "correct_answers": [
+                "The Romanian Land Forces were founded on 24 November 1859.",
+                "The Romanian Land Forces were established on 12 November 1859 (O.S.).",
+                "The foundation date of the Romanian Land Forces is 24 November 1859.",
+                "The Romanian Land Forces came into existence on 24 November 1859.",
+                "The army of Romania, known as the Romanian Land Forces, was founded on 24 November 1859."
+            ],
+            "generated_answer": "The Romanian Land Forces were founded on March 12, 1948.",
+            "bleu_score": 0.6721964423124627,
+            "rouge_scores": {
+                "rouge1": 0.7,
+                "rouge2": 0.6666666666666666,
+                "rougeL": 0.7,
+                "rougeLsum": 0.7
+            },
+            "duration_ms": 906.8374633789062,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 103.53477777777778,
+            "avg_utilization_percent": 29.333333333333332,
+            "gpu_metrics_100ms": [
+                [
+                    100.285,
+                    32
+                ],
+                [
+                    103.999,
+                    26
+                ],
+                [
+                    103.975,
+                    26
+                ],
+                [
+                    103.976,
+                    30
+                ],
+                [
+                    104.002,
+                    30
+                ],
+                [
+                    103.974,
+                    30
+                ],
+                [
+                    103.897,
+                    30
+                ],
+                [
+                    103.834,
+                    30
+                ],
+                [
+                    103.871,
+                    30
+                ]
+            ]
+        },
+        {
+            "question": "What are some themes explored in the novel 'World War Z' by Max Brooks?",
+            "correct_answers": [
+                "The novel explores themes such as government ineptitude, American isolationism, survivalism, and uncertainty.",
+                "Themes in 'World War Z' include social, political, religious, and environmental changes resulting from a global conflict.",
+                "Max Brooks discusses themes of survivalism and the impact of a global crisis on various nationalities.",
+                "The book examines the effects of a devastating global conflict on society and the environment.",
+                "'World War Z' delves into themes of government failures and the human struggle for survival in the face of a zombie plague."
+            ],
+            "generated_answer": "Some themes explored in \"World War Z\" by Max Brooks include:\n\n- The impact of global pandemics on society and culture\n- The resilience of human spirit in the face of extreme adversity\n- The importance of family and community in times of crisis\n- The role of technology in shaping modern warfare\n- The consequences of unchecked military power and aggression",
+            "bleu_score": 0.09377587124382458,
+            "rouge_scores": {
+                "rouge1": 0.3037974683544304,
+                "rouge2": 0.12987012987012986,
+                "rougeL": 0.27848101265822783,
+                "rougeLsum": 0.25316455696202533
+            },
+            "duration_ms": 3022.9945182800293,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 103.60376666666667,
+            "avg_utilization_percent": 31.6,
+            "gpu_metrics_100ms": [
+                [
+                    103.069,
+                    26
+                ],
+                [
+                    105.756,
+                    26
+                ],
+                [
+                    107.945,
+                    32
+                ],
+                [
+                    104.043,
+                    32
+                ],
+                [
+                    104.068,
+                    30
+                ],
+                [
+                    104.174,
+                    30
+                ],
+                [
+                    104.073,
+                    31
+                ],
+                [
+                    104.116,
+                    31
+                ],
+                [
+                    104.249,
+                    30
+                ],
+                [
+                    104.201,
+                    30
+                ],
+                [
+                    104.277,
+                    31
+                ],
+                [
+                    105.219,
+                    31
+                ],
+                [
+                    102.452,
+                    32
+                ],
+                [
+                    101.883,
+                    32
+                ],
+                [
+                    102.089,
+                    32
+                ],
+                [
+                    102.229,
+                    32
+                ],
+                [
+                    102.258,
+                    32
+                ],
+                [
+                    102.522,
+                    32
+                ],
+                [
+                    102.671,
+                    33
+                ],
+                [
+                    102.902,
+                    33
+                ],
+                [
+                    102.896,
+                    32
+                ],
+                [
+                    102.976,
+                    32
+                ],
+                [
+                    103.146,
+                    33
+                ],
+                [
+                    103.334,
+                    33
+                ],
+                [
+                    103.675,
+                    34
+                ],
+                [
+                    103.628,
+                    34
+                ],
+                [
+                    103.659,
+                    33
+                ],
+                [
+                    103.593,
+                    33
+                ],
+                [
+                    103.446,
+                    33
+                ],
+                [
+                    103.564,
+                    33
+                ]
+            ]
+        },
+        {
+            "question": "What are some key historical and economic features of Lock Haven, Pennsylvania?",
+            "correct_answers": [
+                "Lock Haven started as a timber town in 1833 and later grew due to resource extraction and transportation. In the 20th century, it had a light-aircraft factory, a college, and a paper mill.",
+                "Lock Haven, founded in 1833, initially thrived on timber and transportation. In the 20th century, its economy included a light-aircraft factory, a college, and a paper mill.",
+                "Lock Haven's growth began in 1833 with timber and resource extraction, bolstered by transportation. The 20th-century economy featured a light-aircraft factory, a college, and a paper mill.",
+                "Starting as a timber town in 1833, Lock Haven's growth was fueled by resource extraction and transport. By the 20th century, it had a light-aircraft factory, a college, and a paper mill.",
+                "Founded as a timber town in 1833, Lock Haven expanded due to resource extraction and transportation. Key 20th-century industries included a light-aircraft factory, a college, and a paper mill."
+            ],
+            "generated_answer": "Lock Haven, Pennsylvania is a town located in Centre County, Pennsylvania. It was founded by William Penn in 1738 as part of the Pennsylvania Colony. Historically, it has been known for its role in the development of the anthracite coal industry during the Industrial Revolution. The town's economy is now diversified, with agriculture, tourism, and manufacturing being important sectors. Additionally, it has a strong cultural scene, including art galleries, theaters, and museums.",
+            "bleu_score": 0.03438114055344157,
+            "rouge_scores": {
+                "rouge1": 0.25742574257425743,
+                "rouge2": 0.0404040404040404,
+                "rougeL": 0.1782178217821782,
+                "rougeLsum": 0.1782178217821782
+            },
+            "duration_ms": 4038.6862754821777,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 104.84857500000001,
+            "avg_utilization_percent": 33.2,
+            "gpu_metrics_100ms": [
+                [
+                    103.428,
+                    33
+                ],
+                [
+                    102.42,
+                    33
+                ],
+                [
+                    107.289,
+                    36
+                ],
+                [
+                    107.201,
+                    36
+                ],
+                [
+                    107.221,
+                    32
+                ],
+                [
+                    107.071,
+                    32
+                ],
+                [
+                    107.193,
+                    32
+                ],
+                [
+                    107.261,
+                    32
+                ],
+                [
+                    107.134,
+                    32
+                ],
+                [
+                    106.937,
+                    31
+                ],
+                [
+                    107.043,
+                    31
+                ],
+                [
+                    108.213,
+                    33
+                ],
+                [
+                    103.449,
+                    33
+                ],
+                [
+                    103.354,
+                    32
+                ],
+                [
+                    103.36,
+                    32
+                ],
+                [
+                    103.523,
+                    33
+                ],
+                [
+                    103.418,
+                    33
+                ],
+                [
+                    103.563,
+                    33
+                ],
+                [
+                    103.533,
+                    33
+                ],
+                [
+                    103.72,
+                    33
+                ],
+                [
+                    103.958,
+                    33
+                ],
+                [
+                    103.837,
+                    32
+                ],
+                [
+                    103.986,
+                    32
+                ],
+                [
+                    103.932,
+                    34
+                ],
+                [
+                    104.142,
+                    34
+                ],
+                [
+                    104.083,
+                    34
+                ],
+                [
+                    104.112,
+                    34
+                ],
+                [
+                    104.267,
+                    34
+                ],
+                [
+                    104.313,
+                    34
+                ],
+                [
+                    104.443,
+                    34
+                ],
+                [
+                    104.573,
+                    34
+                ],
+                [
+                    104.405,
+                    33
+                ],
+                [
+                    104.537,
+                    33
+                ],
+                [
+                    104.606,
+                    34
+                ],
+                [
+                    104.639,
+                    34
+                ],
+                [
+                    104.713,
+                    34
+                ],
+                [
+                    104.778,
+                    34
+                ],
+                [
+                    104.757,
+                    34
+                ],
+                [
+                    104.759,
+                    34
+                ],
+                [
+                    104.772,
+                    34
+                ]
+            ]
+        },
+        {
+            "question": "What was New York State Route 368 also known as?",
+            "correct_answers": [
+                "Halfway Road",
+                "The route serving the hamlet near its midpoint",
+                "A short highway in Onondaga County",
+                "The road connecting NY 321 and NY 5",
+                "A state highway assigned in the 1930s"
+            ],
+            "generated_answer": "New York State Route 368 is also known as the \"Route 17B\" extension.",
+            "bleu_score": 0.08182477900877295,
+            "rouge_scores": {
+                "rouge1": 0.1904761904761905,
+                "rouge2": 0.10526315789473685,
+                "rougeL": 0.1904761904761905,
+                "rougeLsum": 0.1904761904761905
+            },
+            "duration_ms": 1008.5439682006836,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 105.34189999999998,
+            "avg_utilization_percent": 30.4,
+            "gpu_metrics_100ms": [
+                [
+                    102.876,
+                    34
+                ],
+                [
+                    106.054,
+                    24
+                ],
+                [
+                    105.861,
+                    24
+                ],
+                [
+                    105.748,
+                    31
+                ],
+                [
+                    105.645,
+                    31
+                ],
+                [
+                    105.612,
+                    32
+                ],
+                [
+                    105.493,
+                    32
+                ],
+                [
+                    105.491,
+                    32
+                ],
+                [
+                    105.322,
+                    32
+                ],
+                [
+                    105.317,
+                    32
+                ]
+            ]
+        },
+        {
+            "question": "What are some key facts about the Gaelic Athletic Association (GAA) and its activities?",
+            "correct_answers": [
+                "The Gaelic Athletic Association (GAA) governs Gaelic football, hurling, and handball, but not ladies' Gaelic football and camogie.",
+                "The GAA's headquarters and main stadium, Croke Park, is in north Dublin and has a capacity of 82,500.",
+                "Major GAA games, including the semi-finals and finals of the All-Ireland Senior Championships, are played at Croke Park.",
+                "All GAA players are amateurs and do not receive wages, although they can earn sport-related income from sponsorship.",
+                "During the redevelopment of Lansdowne Road stadium from 2007 to 2010, international rugby and soccer were played at Croke Park."
+            ],
+            "generated_answer": "The Gaelic Athletic Association is a non-profit organization dedicated to promoting Gaelic games, including hurling, football, camogie, and Gaelic football. It was founded in 1884 and has over 3 million members worldwide. The GAA's main objective is to develop sportsmanship, encourage teamwork, and foster community spirit among its members.",
+            "bleu_score": 0.11017115665697447,
+            "rouge_scores": {
+                "rouge1": 0.3768115942028985,
+                "rouge2": 0.11940298507462688,
+                "rougeL": 0.2898550724637681,
+                "rougeLsum": 0.2898550724637681
+            },
+            "duration_ms": 3222.73588180542,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 104.54871875,
+            "avg_utilization_percent": 31.75,
+            "gpu_metrics_100ms": [
+                [
+                    105.083,
+                    32
+                ],
+                [
+                    108.37,
+                    30
+                ],
+                [
+                    107.01,
+                    30
+                ],
+                [
+                    107.226,
+                    34
+                ],
+                [
+                    107.11,
+                    34
+                ],
+                [
+                    106.897,
+                    30
+                ],
+                [
+                    107.023,
+                    30
+                ],
+                [
+                    106.908,
+                    32
+                ],
+                [
+                    106.971,
+                    32
+                ],
+                [
+                    107.003,
+                    33
+                ],
+                [
+                    107.036,
+                    33
+                ],
+                [
+                    106.94,
+                    32
+                ],
+                [
+                    105.37,
+                    32
+                ],
+                [
+                    103.293,
+                    31
+                ],
+                [
+                    103.314,
+                    31
+                ],
+                [
+                    103.374,
+                    31
+                ],
+                [
+                    103.35,
+                    31
+                ],
+                [
+                    103.166,
+                    32
+                ],
+                [
+                    103.097,
+                    32
+                ],
+                [
+                    102.848,
+                    31
+                ],
+                [
+                    102.852,
+                    31
+                ],
+                [
+                    102.625,
+                    32
+                ],
+                [
+                    102.694,
+                    32
+                ],
+                [
+                    102.802,
+                    32
+                ],
+                [
+                    102.823,
+                    32
+                ],
+                [
+                    102.719,
+                    32
+                ],
+                [
+                    102.84,
+                    32
+                ],
+                [
+                    102.938,
+                    32
+                ],
+                [
+                    102.897,
+                    32
+                ],
+                [
+                    102.992,
+                    32
+                ],
+                [
+                    103.042,
+                    32
+                ],
+                [
+                    102.946,
+                    32
+                ]
+            ]
+        },
+        {
+            "question": "What happened in the small fishing town of Petit Paradis after the earthquake?",
+            "correct_answers": [
+                "The beach was hit by a localised tsunami, and at least three people were swept out to sea and reported dead.",
+                "Petit Paradis experienced a localised tsunami due to an underwater slide, resulting in at least three fatalities.",
+                "A localised tsunami struck the beach of Petit Paradis, and witnesses reported that at least three people were swept out to sea and died.",
+                "Researchers confirmed that a localised tsunami hit Petit Paradis after the earthquake, causing the deaths of at least three people.",
+                "In Petit Paradis, an underwater slide caused a localised tsunami that swept at least three people out to sea, who were later reported dead."
+            ],
+            "generated_answer": "I'm sorry, but I don't have enough information to provide a specific answer about what happened in Petit Paradis after the earthquake. Please provide more details or context if available.",
+            "bleu_score": 0.12313391438421044,
+            "rouge_scores": {
+                "rouge1": 0.23076923076923075,
+                "rouge2": 0.15999999999999998,
+                "rougeL": 0.23076923076923075,
+                "rougeLsum": 0.23076923076923075
+            },
+            "duration_ms": 1617.1059608459473,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 104.2544375,
+            "avg_utilization_percent": 30.25,
+            "gpu_metrics_100ms": [
+                [
+                    100.023,
+                    15
+                ],
+                [
+                    104.945,
+                    15
+                ],
+                [
+                    104.908,
+                    40
+                ],
+                [
+                    104.846,
+                    40
+                ],
+                [
+                    104.825,
+                    31
+                ],
+                [
+                    104.747,
+                    31
+                ],
+                [
+                    104.734,
+                    30
+                ],
+                [
+                    104.756,
+                    30
+                ],
+                [
+                    104.727,
+                    31
+                ],
+                [
+                    104.744,
+                    31
+                ],
+                [
+                    104.854,
+                    32
+                ],
+                [
+                    107.827,
+                    32
+                ],
+                [
+                    102.875,
+                    31
+                ],
+                [
+                    103.039,
+                    31
+                ],
+                [
+                    103.145,
+                    32
+                ],
+                [
+                    103.076,
+                    32
+                ]
+            ]
+        },
+        {
+            "question": "List some artists who have covered the song 'Crazy in Love'.",
+            "correct_answers": [
+                "Mickey Joe Harte, Snow Patrol, David Byrne, Switchfoot, Wild Cub",
+                "The Magic Numbers, Tracy Bonham, The Puppini Sisters, Dsico, Pattern Is Movement",
+                "Antony and the Johnsons, The Baseballs, Guy Sebastian, Jessica Mauboy, Maia Lee",
+                "Swing Republic, Robin Thicke and Olivia Chisholm, Emeli Sand\u00e9 and The Bryan Ferry Orchestra, Third Degree, C Major",
+                "Monica Michael, Denise Laurel, Snow Patrol, David Byrne, Switchfoot"
+            ],
+            "generated_answer": "Some artists who have covered \"Crazy in Love\" by Beyonc\u00e9 include The Black Eyed Peas, Usher, and Rihanna.",
+            "bleu_score": 0.06902064609442532,
+            "rouge_scores": {
+                "rouge1": 0.13333333333333333,
+                "rouge2": 0.0,
+                "rougeL": 0.06666666666666667,
+                "rougeLsum": 0.06666666666666667
+            },
+            "duration_ms": 1309.661626815796,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 106.13661538461537,
+            "avg_utilization_percent": 31.307692307692307,
+            "gpu_metrics_100ms": [
+                [
+                    103.203,
+                    31
+                ],
+                [
+                    107.218,
+                    31
+                ],
+                [
+                    107.058,
+                    36
+                ],
+                [
+                    107.169,
+                    36
+                ],
+                [
+                    106.817,
+                    29
+                ],
+                [
+                    106.673,
+                    29
+                ],
+                [
+                    106.649,
+                    30
+                ],
+                [
+                    106.675,
+                    30
+                ],
+                [
+                    106.526,
+                    31
+                ],
+                [
+                    106.457,
+                    31
+                ],
+                [
+                    106.479,
+                    31
+                ],
+                [
+                    106.411,
+                    31
+                ],
+                [
+                    102.441,
+                    31
+                ]
+            ]
+        },
+        {
+            "question": "Where did John Keats supposedly write 'Ode to a Nightingale'?",
+            "correct_answers": [
+                "In the garden of the Spaniards Inn, Hampstead, London.",
+                "Under a plum tree in the garden of Keats' house at Wentworth Place, Hampstead.",
+                "In the garden of the house Keats and Brown shared in Hampstead.",
+                "Near a nightingale's nest in Hampstead.",
+                "In Hampstead, London, inspired by a nightingale's song."
+            ],
+            "generated_answer": "John Keats is believed to have written \"Ode to a Nightingale\" at his home in England.",
+            "bleu_score": 0.092875289995668,
+            "rouge_scores": {
+                "rouge1": 0.26086956521739124,
+                "rouge2": 0.09523809523809522,
+                "rougeL": 0.26086956521739124,
+                "rougeLsum": 0.26086956521739124
+            },
+            "duration_ms": 1107.7194213867188,
+            "rag_impact": {
+                "duration_ms": -1,
+                "relevant_docs": []
+            },
+            "avg_power_watt": 106.0659090909091,
+            "avg_utilization_percent": 31.0,
+            "gpu_metrics_100ms": [
+                [
+                    102.594,
+                    31
+                ],
+                [
+                    106.027,
+                    34
+                ],
+                [
+                    106.379,
+                    34
+                ],
+                [
+                    106.362,
+                    30
+                ],
+                [
+                    106.369,
+                    30
+                ],
+                [
+                    106.397,
+                    30
+                ],
+                [
+                    106.42,
+                    30
+                ],
+                [
+                    106.428,
+                    30
+                ],
+                [
+                    106.508,
+                    30
+                ],
+                [
+                    106.543,
+                    31
+                ],
+                [
+                    106.698,
+                    31
+                ]
+            ]
+        }
+    ]
+}
