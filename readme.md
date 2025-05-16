@@ -1,4 +1,5 @@
 # Bachelorarbeit 
+[Bachelorarbeit](Bachelorarbeit_Angewandte_Informatik.pdf)
 ## Evaluierung von Retrieval-Augmented Generation und Fine-Tuning in der Wissensrepräsentation: Ein Vergleich mit Großen Sprachmodellen
 
 ### Evaluation results
